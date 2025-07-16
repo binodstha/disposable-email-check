@@ -1,0 +1,26 @@
+{
+  "name": "disposable-email-check",
+  "version": "1.0.0",
+  "description": "Detect disposable/temporary email addresses",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prebuild": "rm -rf dist"
+  },
+  "keywords": [
+    "email",
+    "temporary",
+    "disposable",
+    "validator",
+    "react"
+  ],
+  "author": "Binod Shrestha",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
