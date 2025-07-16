@@ -1,6 +1,7 @@
 {
-  "name": "disposable-email-check",
-  "version": "1.0.0",
+  "name": "@the_binod/disposable-email-check",
+  "version": "1.0.1",
+  "private": false,
   "description": "Detect disposable/temporary email addresses",
   "main": "dist/index.js",
   "module": "dist/index.js",
