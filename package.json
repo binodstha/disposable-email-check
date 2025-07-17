@@ -1,14 +1,11 @@
 {
-  "name": "@binodstha/disposable-email-check",
-  "version": "1.0.0",
+  "name": "@the_binod/disposable-email-check",
+  "version": "1.0.2",
   "private": false,
   "description": "Detect disposable/temporary email addresses",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/binodstha/disposable-email-check.git"

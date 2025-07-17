@@ -1,6 +1,6 @@
 # Disposable Email Check
 
-[![npm version](https://img.shields.io/npm/v/@binodstha/disposable-email-check.svg)](https://www.npmjs.com/package/@binodstha/disposable-email-check)
+[![npm version](https://img.shields.io/npm/v/@the_binod/disposable-email-check.svg)](https://www.npmjs.com/package/@the_binod/disposable-email-check)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Test Status](https://img.shields.io/badge/tests-passing-brightgreen.svg)](#testing)
 
@@ -17,19 +17,19 @@ Detect disposable/temporary email addresses with a simple utility function.
 Using pnpm:
 
 ```sh
-pnpm add @binodstha/disposable-email-check
+pnpm add @the_binod/disposable-email-check
 ```
 
 Using npm:
 
 ```sh
-npm install @binodstha/disposable-email-check
+npm install @the_binod/disposable-email-check
 ```
 
 Using yarn:
 
 ```sh
-yarn add @binodstha/disposable-email-check
+yarn add @the_binod/disposable-email-check
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ yarn add @binodstha/disposable-email-check
 ### Basic Example
 
 ```ts
-import { isDisposableEmail } from '@binodstha/disposable-email-check';
+import { isDisposableEmail } from '@the_binod/disposable-email-check';
 
 console.log(isDisposableEmail('test@10minutemail.com')); // true
 console.log(isDisposableEmail('test@gmail.com')); // false
@@ -46,7 +46,7 @@ console.log(isDisposableEmail('test@gmail.com')); // false
 ### API Integration Example
 
 ```ts
-import { isDisposableEmail } from '@binodstha/disposable-email-check';
+import { isDisposableEmail } from '@the_binod/disposable-email-check';
 
 function handleRegistration(email: string) {
   if (isDisposableEmail(email)) {
@@ -59,7 +59,7 @@ function handleRegistration(email: string) {
 ### Batch Checking Example
 
 ```ts
-import { isDisposableEmail } from '@binodstha/disposable-email-check';
+import { isDisposableEmail } from '@the_binod/disposable-email-check';
 
 const emails = [
   'foo@10minutemail.com',
@@ -143,7 +143,7 @@ For major changes, please open an issue first to discuss what you would like to 
 For questions, issues, or feature requests:
 
 - Open an issue on the [GitHub repository](https://github.com/binodstha/disposable-email-check)
-- Or contact [Binod Shrestha](mailto:thebinodshrestha@gmail.com)
+- Or contact [Binod Shrestha](mailto:binod.stha69@gmail.com)
 
 ## License
 
