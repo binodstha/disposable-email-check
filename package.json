@@ -1,6 +1,6 @@
 {
-  "name": "@the_binod/disposable-email-check",
-  "version": "1.0.2",
+  "name": "disposable-email-checker",
+  "version": "1.0.0",
   "private": false,
   "description": "Detect disposable/temporary email addresses",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binodstha/disposable-email-check.git"
+    "url": "git+https://github.com/binodstha/disposable-email-checker.git"
   },
   "files": [
     "dist"
@@ -28,9 +28,9 @@
   "author": "Binod Shrestha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/binodstha/disposable-email-check/issues"
+    "url": "https://github.com/binodstha/disposable-email-checker/issues"
   },
-  "homepage": "https://github.com/binodstha/disposable-email-check#readme",
+  "homepage": "https://github.com/binodstha/disposable-email-checker#readme",
   "devDependencies": {
     "@types/node": "^24.0.14",
     "typescript": "^5.0.0",
