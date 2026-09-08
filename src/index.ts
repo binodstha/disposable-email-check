@@ -1,7 +1,7 @@
-import blockDomains from './block_domains.json';
+import { blockDomains } from './block_domains.js';
 
-// Create a Map for fast lookup
-const blockDomainsMap = new Map((blockDomains as string[]).map(domain => [domain, true]));
+// Parse comma-separated domains into a Set for fast O(1) lookup
+const blockDomainsSet = new Set(blockDomains.split(','));
 
 /**
  * Checks if the given email is from a temporary/disposable domain.
@@ -19,6 +19,6 @@ export function isDisposableEmail(email: string): boolean {
 
   const domain = email.split('@')[1].toLowerCase();
 
-  // Check if the domain exists in the Map
-  return blockDomainsMap.has(domain);
+  // Check if the domain exists in the Set
+  return blockDomainsSet.has(domain);
 }
