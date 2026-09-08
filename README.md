@@ -86,11 +86,11 @@ Checks if the given email address is from a known disposable domain.
 
 ## Blocklist
 
-The blocklist of disposable domains is maintained in [`src/block_domains.json`](src/block_domains.json).
+The blocklist of disposable domains is maintained in [`src/block_domains.ts`](src/block_domains.ts) as a comma-separated string, parsed into a `Set` for fast lookup.
 
 ### Updating the Blocklist
 
-1. Edit `src/block_domains.json` and add or remove domains as needed (one per line, as a JSON array).
+1. Edit `src/block_domains.ts` and add or remove domains in the comma-separated string.
 2. Rebuild the package:
 
    ```sh

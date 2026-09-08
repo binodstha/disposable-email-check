@@ -2,8 +2,8 @@ import { describe, it, expect } from 'vitest';
 import { isDisposableEmail } from './index';
 
 // Example disposable and non-disposable domains for testing
-const disposable = '10minutemail.com'; // Known in block_domains.json
-const nonDisposable = 'gmail.com'; // Not in block_domains.json
+const disposable = '10minutemail.com'; // Known in blocklist
+const nonDisposable = 'gmail.com'; // Not in blocklist
 
 describe('isDisposableEmail', () => {
   it('returns true for a known disposable email domain', () => {
